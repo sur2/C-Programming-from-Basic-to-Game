@@ -1,6 +1,5 @@
-﻿  function.c
-D:\C-Programming-from-Basic-to-Game\NadoCoding\NadoCoding\function.c(13,7): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-D:\C-Programming-from-Basic-to-Game\NadoCoding\NadoCoding\function.c(13,12): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-D:\C-Programming-from-Basic-to-Game\NadoCoding\NadoCoding\function.c(27,8): warning C4013: 'exit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-D:\C-Programming-from-Basic-to-Game\NadoCoding\NadoCoding\function.c(47,13): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+﻿  array.c
+D:\C-Programming-from-Basic-to-Game\NadoCoding\NadoCoding\array.c(5,7): warning C4013: 'srand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\C-Programming-from-Basic-to-Game\NadoCoding\NadoCoding\array.c(5,12): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\C-Programming-from-Basic-to-Game\NadoCoding\NadoCoding\array.c(10,22): warning C4013: 'rand'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
   NadoCoding.vcxproj -> D:\C-Programming-from-Basic-to-Game\NadoCoding\Debug\NadoCoding.exe
