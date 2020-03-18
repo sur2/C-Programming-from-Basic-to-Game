@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main_array(void)
 {
 	srand(time(NULL));
 	printf("\n\n === 아빠는 대머리 게임 === \n\n");
