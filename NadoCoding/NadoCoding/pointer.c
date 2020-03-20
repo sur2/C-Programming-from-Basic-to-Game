@@ -2,11 +2,13 @@
 
 int main()
 {
-	int n = 10;
-	int* ptr = &n;
-	printf("%d %d\n", n, *ptr); // 10 10
-	printf("%p %p\n", &n, ptr); // 皋葛府林家 皋葛府林家
-	*ptr = 20;
-	printf("%d\n", n); // 20
+	
+	
+	int arr[] = { 0, 1, 2 };
+	int* ap = arr;
+	*arr = 100;
+	*(arr + 1) = 200;
+	*(arr + 2) = 300;
+	printf("%d %d %d\n", arr[0], arr[1], arr[2]);
 	return 0;
 }
