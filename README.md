@@ -69,6 +69,16 @@ int* ap = arr;
 *(arr + 1) = 200;
 *(arr + 2) = 300;
 printf("%d %d %d\n", arr[0], arr[1], arr[2]); // 100 200 300
+```
 
+
+
+### clock()
+
+현재 시간을 millisecond (1000분의 1초) 단위로 반환
+
+```
+#include <time.h>
+long timt = clock();
 ```
 
