@@ -143,6 +143,7 @@
     <ClCompile Include="condition.c" />
     <ClCompile Include="function.c" />
     <ClCompile Include="loop.c" />
+    <ClCompile Include="m_array.c" />
     <ClCompile Include="pointer.c" />
     <ClCompile Include="printfscanf.c" />
   </ItemGroup>
