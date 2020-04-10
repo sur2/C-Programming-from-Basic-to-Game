@@ -22,7 +22,7 @@ void printAnimals();
 void printQuestion();
 int foundAllAnimals();
 
-int main(void)
+int main_m_array(void)
 {
 	srand((unsigned)time(NULL));
 

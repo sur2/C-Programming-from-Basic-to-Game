@@ -82,3 +82,39 @@ printf("%d %d %d\n", arr[0], arr[1], arr[2]); // 100 200 300
 long timt = clock();
 ```
 
+
+
+### 구조체
+
+구조체 선언
+
+```
+struct gameInfo {
+	char* name;
+	int year;
+	int price;
+	char* company;
+};
+```
+
+구조체 초기화
+
+```
+struct gameInfo game1;
+game1.name = "1번게임";
+game1.year = 2020;
+game1.price = 1000;
+game1.company = "com";
+
+struct gameInfo game2 = {"2번게임", 2020, 500, "com"};
+
+struct gameInfo gameArray[2] = {
+	{"3번 게임", 2020, 1000, "com"},
+	{"4번 게임", 2020, 5000, "com"}
+};
+	
+
+
+
+```
+

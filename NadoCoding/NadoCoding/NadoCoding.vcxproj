@@ -146,6 +146,7 @@
     <ClCompile Include="m_array.c" />
     <ClCompile Include="pointer.c" />
     <ClCompile Include="printfscanf.c" />
+    <ClCompile Include="struct.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
