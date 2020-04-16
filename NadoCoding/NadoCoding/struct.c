@@ -5,6 +5,8 @@ struct gameInfo {
 	int year;
 	int price;
 	char* company;
+
+	struct gameInfo* friendGame; // 구조체 속 변수로 구조체 선언
 };
 
 int main(void)
@@ -37,6 +39,11 @@ int main(void)
 	gamePtr->company = "com";
 
 	printf("%s, %d, %d, %s\n", game1.name, game1.year, game1.price, game1.company);
+
+	game1.friendGame = &game2;
+	printf("%s, %d, %d, %s\n", game1.friendGame->name, game1.friendGame->year, game1.friendGame->price, game1.friendGame->company);
+
+
 
 	return 0;
 }

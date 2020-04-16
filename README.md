@@ -94,6 +94,8 @@ struct gameInfo {
 	int year;
 	int price;
 	char* company;
+	
+	struct gameInfo * friendGame; // 구조체 속 변수로 포인터 변수인 구조체 선언
 };
 ```
 
@@ -112,9 +114,20 @@ struct gameInfo gameArray[2] = {
 	{"3번 게임", 2020, 1000, "com"},
 	{"4번 게임", 2020, 5000, "com"}
 };
-	
+```
 
+포인터 변수로 구조체 초기화
 
+```
+struct gameInfo* gamePtr;
+gamePtr = &game1;
+(*gamePtr).name = "새로운 1번 게임";
+gamePtr->year = 2020;
+gamePtr[0].price = 3300;
+gamePtr->company = "com";
 
+// 구조체는 구조체 변수를 가질 수 있다.
+// 구조체 변수를 포인터 변수로 선언하여 다음과 같이 초기화 할 수 있다.
+game1.friendGame = &game2;
 ```
 
